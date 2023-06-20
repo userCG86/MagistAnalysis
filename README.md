@@ -8,7 +8,4 @@ shipping management company Magist. The goal is to provide a recommendation
 as to whether the "client" Eniac should pursue a short-term partnership 
 with Magist as a way to gain entry to the Brazilian market.
 
-Visualizations can be seen at [https://usercg86.github.io/MagistAnalysis/](https://usercg86.github.io/MagistAnalysis/)
-
-Hosting of Tableau materials made possible thanks to [dinkwiz's Tableau
-Embedding Project](https://github.com/dinkwiz/tableau_embed)
+Visualizations can be seen at [https://public.tableau.com/app/profile/christopher.galloway5578/viz/MagistAnalysis/Story1](https://public.tableau.com/app/profile/christopher.galloway5578/viz/MagistAnalysis/Story1)
