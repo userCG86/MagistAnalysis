@@ -2,5 +2,8 @@
 ## An analysis of the suitability for a partnership as a method of market expansion
 ### An educational project at the WBS Coding School
 
-This project attempts to use SQL queries on a slice of operationl data from the fictitious online-shopping platform Magist in order that
-the "client" Eniac can judge whether a partnership with Magist is suitable to gain entry to the Brazilian market.
+This project makes use of SQL queries and Tableau visualization 
+software on a slice of operationl data from the fictitious warehouse and
+shipping management company Magist. The goal is to provide a recommendation
+as to whether the "client" Eniac should pursue a short-term partnership 
+with Magist as a way to gain entry to the Brazilian market.
