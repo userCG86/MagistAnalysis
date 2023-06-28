@@ -263,7 +263,7 @@ FROM
 SELECT
 	SUM(
 		CASE
-			WHEN (order_estimated_delivery_date - order_delivered_customer_date >= 0)
+			WHEN (TIMESTAMPDIFF(SECOND, order_delivered_customer_date, order_estimated_delivery_date) > 0)
 			THEN 1
 			ELSE 0
 		END
@@ -271,7 +271,7 @@ SELECT
        ,
     SUM(
 		CASE
-			WHEN (order_estimated_delivery_date - order_delivered_customer_date < 0)
+			WHEN (TIMESTAMPDIFF(SECOND, order_delivered_customer_date, order_estimated_delivery_date) <=  0)
 			THEN 1
 			ELSE 0
 		END
@@ -286,6 +286,8 @@ SELECT
 	COUNT(*) AS total_orders
 FROM
 	orders
+WHERE 
+	order_status != 'canceled'
 ;
 
 -- Is there any pattern for delayed orders, e.g. big products being delayed more often?
